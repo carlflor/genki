@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #202b3a;
+  color: #202b3a;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 50%;
+  padding: 20px;
+  background: white;
+  min-width: 500px;
+}
+
+
+@import './assets/styles/search_bar';
+@import './assets/styles/result';

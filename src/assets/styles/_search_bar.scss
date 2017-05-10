@@ -1,0 +1,30 @@
+.search-panel {
+  display: flex;
+}
+
+.search {
+  padding: 20px 15px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.bar {
+  width: 80%;
+  border-color: #202b3a;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.button {
+  width: calc(20% - 10px);
+  background-color: #202b3a;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
