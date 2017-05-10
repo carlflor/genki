@@ -1,16 +1,25 @@
 .search-panel {
   display: flex;
+  @include media-query($mobile) {
+    flex-direction: column;
+  }
 }
 
 .search {
   padding: 20px 15px;
   margin-bottom: 20px;
   font-size: 15px;
+  @include media-query($mobile) {
+    margin-bottom: 5px;
+  }
 }
 
 .bar {
-  width: 80%;
+  width: 70%;
   border-color: #202b3a;
+  @include media-query($mobile) {
+    width: auto;
+  }
 }
 
 input:focus,
@@ -21,10 +30,14 @@ button:focus {
 }
 
 .button {
-  width: calc(20% - 10px);
+  width: calc(30% - 10px);
   background-color: #202b3a;
   border: none;
   color: white;
   text-transform: uppercase;
   margin-left: 10px;
+  @include media-query($mobile) {
+    width: auto;
+    margin-left: 0;
+  }
 }

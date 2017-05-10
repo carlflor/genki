@@ -1,0 +1,10 @@
+.results {
+  h1  {
+    @include media-query($mobile) {
+      font-size: 1.4em;
+    }
+  }
+  h3 {
+    color: gray;
+  }
+}
