@@ -1,9 +1,9 @@
 function search(query, cb) {
 
   //DEV
-  //const URL = "/api/v1/search/words?keyword=";
+  // const URL = "/api/v1/search/words?keyword=";
   //PROD
-  const URL = "http://crossorigin.me/http://jisho.org/api/v1/search/words?keyword=";
+  const URL = "http://www.jisho.org/api/v1/search/words?keyword=";
 
   return fetch(`${URL}${query}`, {
     accept: 'application/json',
